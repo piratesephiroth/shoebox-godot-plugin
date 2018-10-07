@@ -28,11 +28,11 @@ var imageLoader = preload("image_loader.gd").new();
 enum Preset { PRESET_DEFAULT }
 
 func get_importer_name():
-    return "codeandweb.texturepacker_import_spritesheet"
+    return "shoebox_import_spritesheet"
 
 
 func get_visible_name():
-    return "SpriteSheet from TexturePacker"
+    return "SpriteSheet from ShoeBox"
 
 
 func get_recognized_extensions():

@@ -1,7 +1,7 @@
 # TexturePacker Importer
 
 This is a plugin for [Godot Engine](https://godotengine.org) to import
-`TileSet`s and `AtlasTexture`s from the [TexturePacker](https://www.codeandweb.com/texturepacker)
+`AtlasTexture`s from the [ShoeBox](http://renderhjs.net/shoebox/)
 
 **Note: This is compatible only with Godot 3.0 or later.**
 
@@ -18,14 +18,11 @@ Important: Enable the plugin on the Project Settings.
 ## Features
 
 * Import sprite sheets as AtlasTextures
-* Import sprite sheets as TileSets
-* Supports trimmed sprites (margin)
-* Supports MultiPack
 
 ## Usage (once the plugin is enabled)
-
-1. Save your sprite sheets / tile maps in your project folder
-2. Watch Godot import it automatically.
+1. Select and apply the pixi.js template in ShoeBox's Spritesheet settings then save the spritesheet.
+2. Copy the spritesheet files (png and .js) to your project folder
+3. Watch Godot import it automatically.
 
 ## License
 

@@ -1,7 +1,7 @@
-# TexturePacker Importer
+# ShoeBox Spritesheet Importer
 
 This is a plugin for [Godot Engine](https://godotengine.org) to import
-`AtlasTexture`s from the [ShoeBox](http://renderhjs.net/shoebox/)
+`AtlasTexture`s from [ShoeBox](http://renderhjs.net/shoebox/)
 
 **Note: This is compatible only with Godot 3.0 or later.**
 

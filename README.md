@@ -1,7 +1,7 @@
 # PixiJS Spritesheet Importer
 
-This is a plugin for [Godot Engine](https://godotengine.org) to import
-a spritesheet made for PixiJS. These can be generated using [ShoeBox](http://renderhjs.net/shoebox/) or [SpriteSheet Packer](https://amakaseev.github.io/sprite-sheet-packer/) as multiple `AtlasTexture`s.
+This is a plugin for [Godot Engine](https://godotengine.org) to import `AtlasTexture`s from a spritesheet made for PixiJS.
+These can be generated using [ShoeBox](http://renderhjs.net/shoebox/) or [SpriteSheet Packer](https://amakaseev.github.io/sprite-sheet-packer/).
 
 **Note: This is compatible only with Godot 3.0 or later.**
 

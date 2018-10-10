@@ -28,15 +28,15 @@ var imageLoader = preload("image_loader.gd").new();
 enum Preset { PRESET_DEFAULT }
 
 func get_importer_name():
-    return "shoebox_import_spritesheet"
+    return "pixijs_import_spritesheet"
 
 
 func get_visible_name():
-    return "SpriteSheet from ShoeBox"
+    return "PixiJS SpriteSheet"
 
 
 func get_recognized_extensions():
-    return ["js"]
+    return ["js", "json"]
 
 
 func get_save_extension():

@@ -21,7 +21,7 @@ Important: Enable the plugin on the Project Settings.
 * Import sprite sheets as AtlasTextures
 
 ## Usage (once the plugin is enabled)
-1. Select the proper pixi.js settings in ShoeBox or Spritesheet Packer then save the spritesheet.
+1. Select the proper pixi.js settings in ShoeBox or Spritesheet Packer then save/publish the spritesheet.
 2. Copy the 2 generated files (.png and .js or .json) to your project folder
 3. Watch Godot import it automatically.
 

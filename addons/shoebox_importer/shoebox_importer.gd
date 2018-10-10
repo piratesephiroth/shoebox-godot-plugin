@@ -26,11 +26,11 @@ extends EditorPlugin
 var import_plugin_spritesheet = null
 
 func get_name():
-    return "ShoeBox Importer"
+    return "PixiJS Sprite Sheet Importer"
 
 
 func _enter_tree():
-    import_plugin_spritesheet = preload("shoebox_import_spritesheet.gd").new()
+    import_plugin_spritesheet = preload("pixijs_import_spritesheet.gd").new()
     add_import_plugin(import_plugin_spritesheet)
 
 

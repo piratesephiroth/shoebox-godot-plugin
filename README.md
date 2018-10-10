@@ -1,7 +1,7 @@
 # ShoeBox Spritesheet Importer
 
 This is a plugin for [Godot Engine](https://godotengine.org) to import
-a spritesheet from [ShoeBox](http://renderhjs.net/shoebox/) as multiple `AtlasTexture`s.
+a spritesheet from [ShoeBox](http://renderhjs.net/shoebox/) or SpriteSheet Packer(https://amakaseev.github.io/sprite-sheet-packer/)as multiple `AtlasTexture`s.
 
 **Note: This is compatible only with Godot 3.0 or later.**
 
@@ -21,7 +21,7 @@ Important: Enable the plugin on the Project Settings.
 
 ## Usage (once the plugin is enabled)
 1. Select and apply the pixi.js template in ShoeBox's Spritesheet settings then save the spritesheet.
-2. Copy the 2 generated files (.png and .js) to your project folder
+2. Copy the 2 generated files (.png and .js or .json) to your project folder
 3. Watch Godot import it automatically.
 
 ## License

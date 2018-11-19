@@ -9,7 +9,7 @@ These sheets can be generated using [ShoeBox](http://renderhjs.net/shoebox/) or 
 
 ## Installation
 
-Simply download it from [Godot Asset Library](https://godotengine.org/asset-library/asset/169)
+Simply download it from [Godot Asset Library](https://godotengine.org/asset-library/asset/275)
 
 Alternatively, download or clone this repository and copy the contents of the
 `addons` folder to your own project's `addons` folder.

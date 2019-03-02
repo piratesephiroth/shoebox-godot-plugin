@@ -53,7 +53,7 @@ func get_preset_count():
 
 func get_preset_name(preset):
     match preset:
-        PRESET_DEFAULT: return "Default"
+        Preset.PRESET_DEFAULT: return "Default"
 
 
 func get_import_options(preset):
@@ -80,6 +80,11 @@ func import(source_file, save_path, options, r_platform_variants, r_gen_files):
     create_atlas_textures(sheetFolder, sheets, image, r_gen_files)
 
     return ResourceSaver.save("%s.%s" % [save_path, get_save_extension()], Resource.new())
+func create_folder(folder):
+    var dir = Directory.new()
+    if !dir.dir_exists(folder):
+        if dir.make_dir_recursive(folder) != OK:
+            printerr("Failed to create folder: " + folder)
     
     
 func create_atlas_textures(sheetFolder, sheet, image, r_gen_files):
@@ -108,13 +113,6 @@ func save_resource(name, texture):
         printerr("Failed to save resource "+name)
         return false
     return true
-
-
-func create_folder(folder):
-    var dir = Directory.new()
-    if !dir.dir_exists(folder):
-        if dir.make_dir_recursive(folder) != OK:
-            printerr("Failed to create folder: " + folder)
 
 
 func read_sprite_sheet(fileName):

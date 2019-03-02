@@ -100,7 +100,7 @@ func create_atlas_texture(sheetFolder, sprite, sprite_name, image, r_gen_files):
     texture.atlas = image
     var name = sheetFolder+"/"+sprite_name.get_basename()+".tres"
     texture.region = Rect2(sprite.frame.x, sprite.frame.y, sprite.frame.w, sprite.frame.h)
-    texture.margin = Rect2(sprite.spriteSourceSize.x, sprite.spriteSourceSize.y, sprite.spriteSourceSize.w - sprite.frame.w, sprite.spriteSourceSize.h - sprite.frame.h)
+    texture.margin = Rect2(sprite.spriteSourceSize.x, sprite.spriteSourceSize.y, sprite.sourceSize.w - sprite.frame.w, sprite.sourceSize.h - sprite.frame.h)
     r_gen_files.push_back(name)
     return save_resource(name, texture)
 
